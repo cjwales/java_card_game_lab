@@ -15,4 +15,8 @@ public class Game {
         deck.dealRandomCard(player1);
         deck.dealRandomCard(player2);
     }
+
+//    public String compareCards(PlayerHand player1, PlayerHand player2) {
+//        if (player1.)
+//    }
 }

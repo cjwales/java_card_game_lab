@@ -22,4 +22,9 @@ public class GameTest {
         assertEquals(1, player1.getCards().size());
         assertEquals(1, player2.getCards().size());
     }
+
+//    @Test
+//    public void gameCanComparePlayerCards() {
+//        assertEquals("Player 1 wins!", game.compareCards(player1, player2));
+//    }
 }
