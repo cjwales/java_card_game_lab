@@ -12,15 +12,11 @@ public class Card {
         return suit;
     }
 
-    public void setSuit(SuitType suit) {
-        this.suit = suit;
-    }
-
     public CardRank getRank() {
         return rank;
     }
 
-    public void setRank(CardRank rank) {
-        this.rank = rank;
+    public int getValueFromEnum() {
+        return this.rank.getValue();
     }
 }

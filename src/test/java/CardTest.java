@@ -21,4 +21,10 @@ public class CardTest {
     public void canGetCardRank() {
         assertEquals(CardRank.ACE, card.getRank());
     }
+
+    @Test
+    public void kingHasValue() {
+        card = new Card(SuitType.HEARTS, CardRank.KING);
+        assertEquals(10, card.getValueFromEnum());
+    }
 }
